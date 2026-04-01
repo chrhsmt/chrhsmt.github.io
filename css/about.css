@@ -1,0 +1,46 @@
+h3 {
+  margin: 5px auto 0px auto;
+  font-size: 13px;
+}
+/* IE6,7 hrタグの上部余白対策 */
+* html h3, *:first-child+html h3 {
+  line-height: 0px;
+}
+hr {
+  border: none;
+  height:1px;
+  line-height: 1px;
+  color: #555555;
+  background-color: #555555;
+  margin: 4px 0px 0px 0px;
+  padding: 0px;
+}
+div#author, div#site {
+  width: 450px;
+  margin: 10px 10px;
+  padding: 0px 10px;
+}
+div#site p#cc a {
+  font-size: 10px;
+}
+/* iPhone */
+@MEDIA only screen and (max-device-width:480px) {
+    div#author, div#site {
+      width: 277px;
+    }
+}
+ul li {
+  margin: 3px 0px 3px 30px;
+}
+ul li span {
+  font-weight: bold;
+  color: #777777;
+  text-decoration: underline;
+}
+div#author p, div#author ul, div#site p {
+  margin: 10px 10px;
+}
+div#site p#noFlash {
+  font-weight: bold;
+  text-decoration: underline;
+}

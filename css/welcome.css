@@ -1,0 +1,126 @@
+
+#me {
+  position: absolute;
+  left: 135px;
+  top: 215px;
+  width: 370px;
+  font-size: 12px;
+}
+div#img {
+  height: 75px;
+}
+div#img img.meImg{
+/*        visibility: hidden;*/
+}
+div#me fieldset#info {
+  width: 72%;
+  font-size: 11px;
+  border: 1px solid #777777;
+  margin: 5px 0px;
+  padding: 3px 8px 8px 7px;
+}
+div#me fieldset#info legend {
+  margin: 0px 0px;
+  padding: 0px 8px;
+}
+div#me fieldset#info ul {
+  overflow: auto;
+  height: 70px;
+  margin: 7px 4px;
+  padding: 0px 0px 0px 30px;
+}
+div#me fieldset#info ul li {
+  text-decoration: underline;
+  margin: 5px 0px;
+}
+div#me fieldset#info ul li a {
+  color: #555555;
+  font-size: 11px;
+  text-decoration: underline;
+}
+div#me fieldset#info p {
+  margin: 12px 0px 0px 0px;
+  font-size: 11px;
+  text-align: right;
+}
+div#me ul#contents {
+  width: 72%;
+  margin: 10px 0px;
+  padding: 8px 10px;
+  border-top: 1px solid #777777;
+  border-bottom: 1px solid #777777;
+  font-size: 12px;
+}
+div#me ul#contents li {border: 1px solid #dedede;background-color: green;
+  margin: 7px 5px;
+  padding: 0px;
+}
+div#me ul#contents li a {
+  display: block;
+  margin: 0px;
+  padding: 2px 8px;
+  letter-spacing: 6px;
+  color: #808080;
+  background-color: #dedede;
+/*        background-color: #555555;*/
+}
+div#me ul#contents li a:hover {
+/*        text-decoration: underline;*/
+  background-color: #cdcdcd;
+}
+div#me ul#contents li a span {
+  width: 90%;
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+}
+@MEDIA only screen and (max-device-width:480px) {
+  div#me {
+    position: absolute;
+    left: auto;
+    top: auto;
+    width: auto;
+    font-size: 12px;
+  }
+  div#img {
+    height: 75px;
+    text-align: center;
+  }
+  div#img {
+    margin: auto;
+  }
+  div#me fieldset#info {
+    width: 280px;
+  }
+  div#me fieldset#info ul li {
+    margin: 8px 0px;
+  }
+  div#me ul#contents {
+    width: 295px;
+    margin: 10px 0px;
+    padding: 0px 0px;
+  }
+  div#me fieldset#info ul {
+/*	        height:auto;
+      overflow-y: visible;*/
+    overflow-y: hidden;
+  }
+  div#me ul#contents li {
+    font-size:14px;
+    font-weight:bold;
+    width: 300px;
+    margin-left: 0px;
+    background-color: #eeeeee;
+    border: 1px solid #999999;
+    -webkit-border-radius: 7px;
+  }
+  div#me ul#contents li a {
+  display: block;
+  padding-top:10px;     
+  padding-right:10px;    
+  padding-bottom:14px;
+  padding-left:10px;
+      border: none;
+  -webkit-border-radius: 7px;
+  }
+}
